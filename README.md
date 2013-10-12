@@ -9,10 +9,13 @@ A jQuery plugin for image info box slider
 
 1. You have some images in a div which class is 'albums', and each image has parent which class ='thumb ...' and has a .info div to contain infomation about image.
 ```
+  <script src='jquery.js'></script>
+  <script src='pintro.js'></script>
+
   <div class="albums">
     <div class="thumb img-thumbnail">
       <img title='yooo' src="http://i.imgur.com/xgSNUo2.jpg">
-      <div class='info'>
+      <div class='info'>discripttion of this image</div>
     </div>
 
     <div class="thumb img-thumbnail">
