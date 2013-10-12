@@ -82,19 +82,52 @@ $('.albums').pintro({
 
 
 ##Optinos
-### default options:
+### default main settings:
     imgGroup: $(this),          //main selector ex: $('selector').pintro({});
     imgClass: '.thumb',         //el.class that contain image. default: '.thumb'
     imgInfoClass: '.info',      //el.class that contain image info. default: '.info'
     duration : 'fast'           //slide speed , it can use number ex: 1000. default: 'fast'
 
-### custom class
-    $('albums').pintro({
+### custom main selector and class
+```
+    $('memo').pintro({
         imgClass: '.pic',               //<div class='.pic'> ...
         imgInfoClass: '.description',   //<div class='.description'><img src='xxx'>... ... </div>
         duration : '3000'               //take 3 seconds  to finish slide animation
     });
+```    
+### default '.thumb' css:
+	float: left;
+  	margin: 10px 5px;
+  	position: relative; 
+### custom '.thumb' css
+```
+	$('albums').pintro({
+		...
+		thumbcss: {
+			float: 'left',
+  			margin: 10px 10px,
+  			position: relative; 
+		}
+		...
+	});
+```
+
+### '.info' default css:    
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	padding: 10px 10px;
+	line-height: 1.2;
+	background-color: #007AB3;
+	text-align: left;
+	color: #91BBD0;
+	font-size: 12px;
+	display: none;
+  
 ### custom '.info' css
+```
     $('albums').pintro({
         ...
         infocss: {  // put your css settings inside infocss object
@@ -104,18 +137,10 @@ $('.albums').pintro({
             ...
         }
     });
-### '.info' default css:    
-```
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  padding: 10px 10px;
-  line-height: 1.2;
-  background-color: #007AB3;
-  text-align: left;
-  color: #91BBD0;
-  font-size: 12px;
-  display: none;
-```
+``` 
+
+
+
+
+
 
