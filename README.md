@@ -24,11 +24,7 @@ A jQuery plugin for image info box slider
       <img title='3' src="http://i.imgur.com/ztm9G37s.jpg">
       <div class='info'>789</div>
     </div>
-      
-    <div class="thumb img-thumbnail">
-      <img title='4' src="http://i.imgur.com/cYj2Ys6s.jpg">
-      <div class='info'>101112</div>
-    </div>
+      ...
   </div>
 ```
 
