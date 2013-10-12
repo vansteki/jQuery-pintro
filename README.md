@@ -84,9 +84,9 @@ $('.albums').pintro({
 ##Optinos
 ### default main settings:
     imgGroup: $(this),          //main selector ex: $('selector').pintro({});
-    imgClass: '.thumb',         //el.class that contain image. default: '.thumb'
-    imgInfoClass: '.info',      //el.class that contain image info. default: '.info'
-    duration : 'fast'           //slide speed , it can use number ex: 1000. default: 'fast'
+    imgClass: '.thumb',         //el.class that contain image.
+    imgInfoClass: '.info',      //el.class that contain image info.
+    duration : 'fast'           //slide speed , it can use number ex: 1000.
 
 ### custom main selector and class
 ```
