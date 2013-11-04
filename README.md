@@ -34,7 +34,7 @@ A jQuery plugin for image info box slider
 2. all done
 ![dog0](http://i.imgur.com/ChwaG8Rl.png)
 ```
-    $('albums').pintro({});
+    $('.albums').pintro({});
 ```
 
 3.  If you want to custom the class, ex: change .album to .log, and .thumb to .photo
@@ -49,7 +49,7 @@ A jQuery plugin for image info box slider
 ```
 just set the selector , imgClass and imgInfoClass options
 ```
-    $('log').pintro({
+    $('.log').pintro({
         imgClass: '.photo',
         imgInfoClass: '.meta'
     });
