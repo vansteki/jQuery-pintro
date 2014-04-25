@@ -4,7 +4,7 @@ jQuery-pintro
 A jQuery plugin for image info box slider 
 
 
-[demo](http://jsbin.com/aVOGIbA/36)
+[demo](http://jsbin.com/aVOGIbA/38)
 ## Usage
 
 1. You have some images in a div which class is 'albums', and each image has parent which class ='thumb ...' and has a .info div to contain infomation about image.
